@@ -15,7 +15,7 @@ interface Approvable {
     void approve();
 }
 
-// SupportTeam 클래스: 추상 클래스 상속 + 인터페이스 구현
+// SupportTeam 클래스: 클래스 상속 + 인터페이스 구현
 class SupportTeam extends Team implements Approvable {
     SupportTeam(String name) {
         super(name);
